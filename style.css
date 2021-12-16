@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+:root {
+  --body-bg-color: #faf7fd;
+  --purple: #bb99dd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: var(--body-bg-color);
+  font-family: 'Poppins', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.avatar {
+  border: 5px solid var(--body-bg-color);
+  outline: 2px solid var(--purple);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.avatar img {
+  width: 180px;
+  height: fit-content;
+  clip-path: circle(50% at 50% 50%);
+}
+
+.container p {
+  color: var(--purple);
+  font-weight: 300;
+  margin-bottom: 12px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.container button {
+  width: 325px;
+  height: 50px;
+  color: var(--purple);
+  font-weight: 600;
+  border-radius: 4px;
+  border: 2px solid var(--purple);
+  outline: none;
+  cursor: pointer;
+}
+
+.social-media {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 40px;
+}
