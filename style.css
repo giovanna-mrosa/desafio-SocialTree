@@ -73,8 +73,7 @@ main {
 }
 
 .container button:hover,
-.container button:focus,
-.conatiner button:active {
+.container button:focus {
   transform: scale(1.05);
 }
 
@@ -91,7 +90,6 @@ main {
 }
 
 .social-media a:hover,
-.social-media a:focus,
-.social-media a:active {
+.social-media a:focus {
   transform: scale(1.15);
 }
